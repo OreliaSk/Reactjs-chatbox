@@ -1,0 +1,14 @@
+/*Pour importer un fichier css contenu dans le meme dossier*/
+/***********************************************
+				MIXINS
+***********************************************/
+/*avec animation*/
+/* avec border-radius*/
+/*
+.[name_of-class] { @include radius(10px); }
+*/
+/*avec box-shadow*/
+/*avec les transitions*/
+@import url(connexion/connexion.css);
+
+/*# sourceMappingURL=style.css.map */

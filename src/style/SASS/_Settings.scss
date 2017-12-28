@@ -1,0 +1,37 @@
+
+/***************** FONTS *****************/
+$lato : 'Lato', sans-serif;
+
+/***************** VARIABLES *****************/
+
+/* colors */
+$vlight-grey : #E6EBF6;
+$light-grey : #ccc;
+$blue : #2b78e4;
+
+/* height */
+$xs-width : 16vw;
+$s-width : 20vw;
+$m-width : 40vw;
+$l-width : 60vw;
+
+
+/* width */
+$xxs-height : 8vh;
+$xs-heigh: 20vh;
+$s-height : 40vh;
+$m-height : 60vh;
+$l-height : 100vh;
+
+%bloc-connexion {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+
+/* GENERAL */
+body {
+	font-family: $lato;
+	letter-spacing: 2px;
+}
