@@ -1,4 +1,4 @@
-# ChatBox app (using Reactjs)
+# ChatBox app (using Reactjs) ### in progress
 
 
 This app will allow you to chat with your friends. Test it !
