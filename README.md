@@ -1,8 +1,9 @@
-# ChatBox app (using Reactjs) ### in progress
+# ChatBox app (using Reactjs) 
 
 
 This app will allow you to chat with your friends. Test it !
 For running the app, make sure you have npm, yarn and node.js installed.
+(App in progress)
 
 
 ### Use those commands to generate node-modules &co (using create-react-app).
