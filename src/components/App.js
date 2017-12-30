@@ -18,3 +18,8 @@ class App extends React.Component {
 }
 
 export default App
+
+/*
+this.props.match.params.pseudo to get user pseudo instead of
+this.props.params.pseudo (=> undefined)
+*/
