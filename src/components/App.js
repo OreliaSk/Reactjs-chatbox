@@ -16,13 +16,22 @@ class App extends React.Component {
 	}
 
 	render() {
+
+		const messages = Object
+		.keys(this.state.messages)
+		.map(key => <Message key={key} details={this.state.messages[key]}/>);
+		
 		return (
 			<div className="bloc">
 				<div>
 					<div className="messages">
-						<Message pseudo={this.props.match.params.pseudo} />
+						{messages}
 					</div>
-					<Form addMessage={this.addMessage} />
+					<Form 
+						addMessage={this.addMessage} 
+						pseudo={this.props.match.params.pseudo}
+						length="140"
+					/>
 				</div>
 			</div>
 		)
