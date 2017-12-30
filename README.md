@@ -24,9 +24,9 @@ $ npm install --save react-router-dom
 
 For Firebase :
 ```
-$ yarn add react-rebase
-or
-$ npm install --save react-rebase
+$ npm install --save re-base
+or 
+$ yarn add re-base
 ```
 
 ### What I used to build this app :
@@ -34,7 +34,7 @@ $ npm install --save react-rebase
 * [create-react-app](https://github.com/facebookincubator/create-react-app) - Dependency Management
 * [react-router-dom](https://www.npmjs.com/package/react-router-dom) - Dependency Management
 * [Firebase](https://firebase.google.com/) - Database
-* [react-rebase](https://www.npmjs.com/package/react-rebase) - Dependency Management
+* [re-base](https://www.npmjs.com/package/re-base) - Dependency Management
 * [SASS](http://sass-lang.com/) - Preprocessor for development
 
 
