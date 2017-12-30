@@ -8,7 +8,7 @@ class App extends React.Component {
 			<div className="bloc">
 				<div>
 					<div className="messages">
-						<Message />
+						<Message pseudo={this.props.match.params.pseudo} />
 					</div>
 					<Form />
 				</div>

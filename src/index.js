@@ -9,6 +9,9 @@ import NotFound from './components/NotFound';
 
 // ROUTER
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import {PropTypes} from 'prop-types';
+
+// CSS
 import './style/SASS/style.css';
 
 
