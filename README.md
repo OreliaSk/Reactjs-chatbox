@@ -30,13 +30,13 @@ $ npm install --save react-rebase
 ```
 
 ### What I used to build this app :
-*[Reactjs](https://reactjs.org/)* - Web framework used
-*[create-react-app](https://github.com/facebookincubator/create-react-app)* - Dependency Management
-*[react-router-dom](https://www.npmjs.com/package/react-router-dom)* - Dependency Management
-*[Firebase](https://firebase.google.com/)* - Database
-*[react-rebase](https://www.npmjs.com/package/react-rebase)* - Dependency Management
-*[SASS](http://sass-lang.com/)* - Preprocessor for development
+* [Reactjs](https://reactjs.org/) - Web framework used
+* [create-react-app](https://github.com/facebookincubator/create-react-app) - Dependency Management
+* [react-router-dom](https://www.npmjs.com/package/react-router-dom) - Dependency Management
+* [Firebase](https://firebase.google.com/) - Database
+* [react-rebase](https://www.npmjs.com/package/react-rebase) - Dependency Management
+* [SASS](http://sass-lang.com/) - Preprocessor for development
 
 
 ### Author
-* **Orélia Sokambi** - Initial work
+* **Orélia Sokambi** - *Initial work*
