@@ -1,11 +1,19 @@
 import React from 'react';
 import Message from './Message';
 import Form from './Form';
+import {base} from '../base';
 
 class App extends React.Component {
 
-	state =  {
+	state = {
 		messages : {}
+	}
+
+	componentWillMount() {
+		this.ref = base.syncState('/', {
+			context: this,
+			state: 'messages'
+		});
 	}
 
 	addMessage = message => {
