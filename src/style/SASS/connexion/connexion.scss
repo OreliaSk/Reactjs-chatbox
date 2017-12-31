@@ -2,9 +2,7 @@
 @import '../_Settings';
 
 .bloc-connexion {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@extend %bloc-flex;
 	height: $l-height;
 }
 

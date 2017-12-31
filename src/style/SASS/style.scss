@@ -1,4 +1,6 @@
 /*Pour importer un fichier css contenu dans le meme dossier*/
 @import '_MainMixins.scss';
+@import '_Settings.scss';
 @import 'connexion/connexion.css';
 @import 'not-found/not-found.css';
+@import 'chat/chat.css';

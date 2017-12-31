@@ -9,7 +9,17 @@
 */
 /*avec box-shadow*/
 /*avec les transitions*/
+/***************** FONTS *****************/
+/***************** VARIABLES *****************/
+/* colors */
+/* height */
+/* width */
 @import url(connexion/connexion.css);
 @import url(not-found/not-found.css);
+@import url(chat/chat.css);
+/* GENERAL */
+body {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 2px; }
 
 /*# sourceMappingURL=style.css.map */

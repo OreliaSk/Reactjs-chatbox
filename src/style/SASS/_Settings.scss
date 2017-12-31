@@ -30,6 +30,12 @@ $l-height : 100vh;
 	margin: auto;
 }
 
+%bloc-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 /* GENERAL */
 body {
 	font-family: $lato;
