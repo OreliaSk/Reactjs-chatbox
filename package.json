@@ -11,7 +11,8 @@
     "react-rebase": "^1.0.5",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "react-transition-group": "1.x"
   },
   "scripts": {
     "start": "react-scripts start",
