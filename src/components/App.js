@@ -2,7 +2,8 @@ import React from 'react';
 import Message from './Message';
 import Form from './Form';
 import {base} from '../base';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import { CSSTransitionGroup } from 'react-transition-group';
+import '../style/SASS/animation/animation.css'
 
 class App extends React.Component {
 
@@ -35,7 +36,7 @@ class App extends React.Component {
 			<div className="bloc-chat">
 				<div>
 					<div className="messages">
-					<ReactCSSTransitionGroup 
+					<CSSTransitionGroup 
 					component="div"
 					className="message"
 					transitionName="message"
@@ -43,7 +44,7 @@ class App extends React.Component {
 					transitionLeaveTimeOut={200}
 					>
 						{messages}
-					</ReactCSSTransitionGroup>
+					</CSSTransitionGroup>
 					</div>
 					<Form 
 						addMessage={this.addMessage} 
