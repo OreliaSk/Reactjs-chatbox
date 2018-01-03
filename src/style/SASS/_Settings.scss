@@ -7,6 +7,7 @@ $lato : 'Lato', sans-serif;
 /* colors */
 $vlight-grey : #E6EBF6;
 $light-grey : #ccc;
+$grey : #DBDBDB;
 $blue : #2b78e4;
 
 /* height */
@@ -34,6 +35,27 @@ $l-height : 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+%bloc-user {
+	position: relative; 
+	margin-bottom: 20px;
+	padding: 5px;
+	min-height: $xxs-height;
+	min-width: $s-width;
+	@include radius(5px);
+}
+
+%bloc-user-after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 0; 
+	height: 0; 
+	border: 13px solid transparent;
+	border-bottom: 0;  
+	margin-left: -6.5px; 
+	margin-bottom: -13px;
 }
 
 /* GENERAL */
