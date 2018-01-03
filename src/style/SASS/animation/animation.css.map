@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA;;gDAEgD;AAChD,kBAAkB;AAQlB,uBAAuB;AAQvB;;EAEE;AAEF,mBAAmB;AAQnB,wBAAwB;AC/BxB,2CAA2C;AAG3C,+CAA+C;AAE/C,YAAY;AAKZ,YAAY;AAOZ,WAAW;AAoBX,aAAa;AACb,IAAK;EACJ,WAAW,EAtCJ,kBAAkB;EAuCzB,cAAc,EAAE,GAAG",
+"sources": ["../_MainMixins.scss","../_Settings.scss"],
+"names": [],
+"file": "animation.css"
+}

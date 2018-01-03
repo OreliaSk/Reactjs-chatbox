@@ -1,4 +1,5 @@
 import React from 'react';
+//import smiley from '../images/smiley/1.png';
 
 class Form extends React.Component {
 
@@ -29,6 +30,11 @@ class Form extends React.Component {
 	}
 
 	render() {
+
+		/*let smileys = ['wood', 'sun', 'moon', 'sea'].map( (name, index) => {
+		            return <img key={index} className="img-responsive" alt="" src={require(`./icons/${name}.png`)} />
+		        } );*/
+
 		return (
 			<form 
 			onSubmit={e => this.createMessage(e)}
@@ -39,10 +45,14 @@ class Form extends React.Component {
 					onChange={e => this.counter(e)}
 					ref={(input) => this.message = input}
 					maxLength={this.state.length}
+					className="text-area"
 				>
 				</textarea>
+				<div className="smiley">
+					
+				</div>
 				<div className="info">{this.state.length}</div>
-				<button className="btn btn-default">Send</button>
+				<button className="btn-send-message btn btn-default ">Send</button>
 			</form>
 		)
 	}

@@ -2,6 +2,7 @@ import React from 'react';
 import Message from './Message';
 import Form from './Form';
 import {base} from '../base';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 class App extends React.Component {
 
@@ -31,15 +32,24 @@ class App extends React.Component {
 		.map(key => <Message key={key} details={this.state.messages[key]}/>);
 		
 		return (
-			<div className="bloc">
+			<div className="bloc-chat">
 				<div>
 					<div className="messages">
+					<ReactCSSTransitionGroup 
+					component="div"
+					className="message"
+					transitionName="message"
+					transitionEnterTimeOut={200}
+					transitionLeaveTimeOut={200}
+					>
 						{messages}
+					</ReactCSSTransitionGroup>
 					</div>
 					<Form 
 						addMessage={this.addMessage} 
 						pseudo={this.props.match.params.pseudo}
 						length="140"
+						className="send-message"
 					/>
 				</div>
 			</div>
