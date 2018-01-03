@@ -3,31 +3,31 @@
 
 .bloc-chat {
 	@extend %bloc-flex;
-	height: $l-height;
-}
-
-.user-message:after {
-	content: ''; 
-	position: absolute; 
-	bottom: 0; 
-	left: 93%; 
-	width: 0; height: 0; border: 13px solid transparent; 
-	border-top-color: $blue; 
-	border-bottom: 0; 
-	border-right: 0; 
-	margin-left: -6.5px; 
-	margin-bottom: -13px;
+	min-height: $l-height;
 }
 
 .user-message {
-	position: relative; 
 	background: $blue; 
 	color: #fff;
-	margin-bottom: 20px;
-	padding: 5px;
-	min-height: $xxs-height;
-	min-width: $s-width;
-	@include radius(5px);
+	@extend %bloc-user;
+}
+.user-message:after {
+	left: 93%; 
+	border-top-color: $blue;
+	border-right: 0; 
+	@extend %bloc-user-after;
+}
+
+.not-user-message {
+	background: $light-grey; 
+	color: #000;
+	@extend %bloc-user;
+}
+.not-user-message:after {
+	left: 7%; 
+	border-top-color: $light-grey;
+	border-left: 0; 
+	@extend %bloc-user-after;
 }
 
 .text-area {
