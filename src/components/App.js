@@ -18,6 +18,11 @@ class App extends React.Component {
 		});
 	}
 
+	componentDidUpdate() {
+		// scroll
+		this.messages.scrollTop = this.messages.scrollHeight ;
+	}
+
 	addMessage = message => {
 		const messages = {...this.state.messages};
 		const timestamp = Date.now();
@@ -26,11 +31,15 @@ class App extends React.Component {
 		this.setState({messages});
 	}
 
+	isUser = (pseudo) => {
+		return pseudo === this.props.match.params.pseudo
+	}
+
 	render() {
 
 		const messages = Object
 		.keys(this.state.messages)
-		.map(key => <Message key={key} details={this.state.messages[key]}/>);
+		.map(key => <Message key={key} details={this.state.messages[key]} isUser={this.isUser} />);
 		
 		return (
 			<div className="bloc-chat">
