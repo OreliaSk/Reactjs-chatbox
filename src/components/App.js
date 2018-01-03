@@ -35,7 +35,7 @@ class App extends React.Component {
 		return (
 			<div className="bloc-chat">
 				<div>
-					<div className="messages">
+					<div className="messages" ref={input => this.messages = input}>
 					<CSSTransitionGroup 
 					component="div"
 					className="message"
